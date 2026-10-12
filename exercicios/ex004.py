@@ -1,0 +1,6 @@
+ex = input('para iniciar a operação, digige uma expresão de qualquer natureza!')
+print('o tipo primitivo é', type(ex))
+print('E um numero?', ex.isnumeric())
+print('tem somente espaços?', ex.isspace())
+print('Somente tem letras?', ex.isalpha())
+print('So tem letras ou numeros?', ex.isalnum())
